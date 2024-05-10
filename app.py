@@ -6,7 +6,8 @@ from backend import load_data, get_summary, plot_sales_over_time
 def main():
     st.title('Supermarket Sales Dashboard')
 
-
+    st.write("### Text here")
+    st.code('x = 10')
 
     # Load data 
     data = load_data()
